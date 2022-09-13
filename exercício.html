@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+    Exercício(Peso)
+</title>
+</head>
+<body>
+
+    <center>
+       <h1>Digite o Peso</h1>
+       <input id="f"> <br>
+
+    <button onclick="kg()">Digite o Kg</button>
+</center>
+    <script>
+       var p = document.querySelector("#f")
+ function kg(){
+       if(p.value>50){
+        var pagar = "taxado"
+    }
+    switch (pagar){
+        case "taxado":
+            var excesso = parseInt(p.value)-50; 
+        console.log(excesso+ "Kg em processo")
+        var multa = excesso*4;
+        console.log("Pagou uma multa de R$"+multa);
+        break;
+    default:
+        console.log("Escapou por pouco");
+    }}
+    </script>
+</body>
+</html>
