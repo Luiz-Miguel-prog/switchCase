@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+<title>
+ Boletim do Aluno
+</title>
+</head>
+<body style="background-color: black;">
+  <center>
+
+  <h1 style="color: gold;">Digite Seu Nome:</h1>
+  <input id="nome">
+  
+  <h1 style="color: gold;">Digite Um Número:</h1>
+  <input id="n1" type="number">
+  
+  <h1 style="color: gold;">Digite Um Número:</h1>
+  <input id="n2" type="number">
+  
+  <h1 style="color: gold;">Digite Um Número:</h1>
+  <input id="n3" type="number">
+  
+  <h1 style="color: gold;">Digite Um Número:</h1>
+  <input id="n4" type="number"><br><br>
+  
+  <h1 style="color: gold;">Digite Um Número:</h1>
+  <input id="n5" type="number"><br><br>
+  
+  <button onclick="aparecer()" style="color: black;">Aparecer</button>
+  <button id="bot" style="color: black;">A Média é: </button>
+      </center> 
+      <script>
+        var n1 = document.querySelector('#n1')
+        var n2 = document.querySelector('#n2')
+        var n3 = document.querySelector('#n3')
+        var n4 = document.querySelector('#n4')
+        var n5 = document.querySelector('#n5')
+        var resultado = document.querySelector('#bot')
+  function aparecer(){
+      media = (parseInt(n1.value) + parseInt(n2.value) + 
+      parseInt(n3.value) + parseInt(n4.value)
+      +parseInt(n5.value)) / 4 
+      if(media<6){
+        resultado.innerHTML =" Reprovado " + media
+      } else{
+        resultado.innerHTML =" Aprovado " + media
+    }
+      
+    }       
+ </script>
+</body>
+</html>
