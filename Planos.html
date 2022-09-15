@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>Planos do Sócio-Torcedor</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/pricing/">
+
+    
+
+    
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="pricing.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Menu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample01">
+            <ul class="navbar-nav me-auto mb-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Pagina Inicial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Desabilitado</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Suspenso</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Ação</a></li>
+                  <li><a class="dropdown-item" href="#">Outra ação</a></li>
+                  <li><a class="dropdown-item" href="#">Outra coisa aqui</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form role="search">
+              <input class="form-control" type="search" placeholder="Procurar" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav></main>
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="check" viewBox="0 0 16 16">
+    <title>Check</title>
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+</svg>
+
+<div class="container py-3">
+  <header>
+    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+      <a href="Pagina Inicial.html" class="d-flex align-items-center text-white text-decoration-none">
+        <img src="Images 2/logo3.jpg" width="40" height="45" class="me-2" viewBox="0 0 118 94" role="img" title="Logo do Flamengo"><title>Flamengo</title>
+        <span class="fs-4 text-white">Sócio-Torcedor</span>
+      </a>
+
+      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+        <a class="me-3 py-2 text-white text-decoration-none" href="Pagina Inicial.html">Página Inicial</a>
+        <a class="me-3 py-2 text-white text-decoration-none" href="https://loja.flamengo.com.br/">Loja</a>
+        <a class="me-3 py-2 text-white text-decoration-none" href="https://www.flamengo.com.br/noticias/institucional">O Clube</a>
+        <a class="py-2 text-white text-decoration-none" href="#">Preços</a>
+      </nav>
+    </div>
+
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal text-white"><ins>Planos</ins></h1>
+      <p class="fs-5 text-white">Esses são os todos os Planos do nosso Sócio-Torcedor,Faça parte da nação e faça ela cada vez mais forte!</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-danger">
+          <div class="text-bg-danger card-header py-3">
+            <h4 class="my-0 fw-normal">Sócio Torcedor Bronze</h4>
+          </div>
+          <div class="card-body text-bg-dark">
+            <h1 class="card-title pricing-card-title">R$43<small class="text-white fw-light">/mês</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>- Direito no ingresso com meia-entrada</li>
+              <li>- Propriedade 5 na compra de ingressos</li>
+              <li>- Desconto de 50% na assinatura mensal da FlaTV+</li>
+              <li>- 10% De desconto nas Lojas Oficias do Flamengo</li>
+              <li>- Personalização grátis na Camisa Oficial</li>
+              <li>- Experiências sorteios e rede de parceiros</li>
+            </ul>
+          <a href="Dados pessoais.html"><button type="button" class="w-100 btn btn-lg btn-outline-danger">Iniciar</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-danger">
+          <div class="text-bg-danger card-header py-3">
+            <h4 class="my-0 fw-normal">Sócio Torcedor Prata</h4>
+          </div>
+          <div class="card-body text-bg-dark">
+            <h1 class="card-title pricing-card-title">R$58<small class="text-white fw-light">/mês</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>- 20% De desconto no ingresso sobre a meia-entrada</li>
+              <li>- Propriedade 4 na compra de ingressos</li>
+              <li>- Desconto de 50% na assinatura mensal da FlaTV+</li>
+              <li>- 10% De desconto nas Lojas Oficias do Flamengo</li>
+              <li>- Personalização grátis na Camisa Oficial</li>
+              <li>- Experiências sorteios e rede de parceiros</li>
+            </ul>
+           <a href="Dados pessoais.html"><button type="button" class="w-100 btn btn-lg btn-outline-danger">Iniciar</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-danger">
+          <div class=" text-bg-danger card-header py-3">
+            <h4 class="my-0 fw-normal">Sócio Torcedor Ouro</h4>
+          </div>
+          <div class="card-body text-bg-dark">
+            <h1 class="card-title pricing-card-title">R$119<small class="text-white fw-light">/mês</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>- 30% De desconto no ingresso sobre a meia-entrada</li>
+              <li>- Propriedade 3 na compra de ingressos</li>
+              <li>- Até 1 convidado R$35,00</li>
+              <li>- Assinatura mensal gratuita da FlaTV+</li>
+              <li>- 10% De desconto nas Lojas Oficias do Flamengo</li>
+              <li>- Personalização grátis na Camisa Oficial</li>
+              <li>- Experiências sorteios e rede de parceiros</li>
+            </ul>
+           <a href="Dados pessoais.html"><button type="button" class="w-100 btn btn-lg btn-outline-danger">Iniciar</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-danger">
+          <div class="text-bg-danger card-header py-3">
+            <h4 class="my-0 fw-normal">Sócio Torcedor Platina</h4>
+          </div>
+          <div class="card-body text-bg-dark">
+            <h1 class="card-title pricing-card-title">R$199<small class="text-white fw-light">/mês</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>- 30% De desconto no ingresso sobre a meia-entrada</li>
+              <li>- Propriedade 2 na compra de ingressos</li>
+              <li>- Até 2 convidado R$35,00(cada)</li>
+              <li>- Assinatura mensal gratuita da FlaTV+</li>
+              <li>- 10% De desconto nas Lojas Oficias do Flamengo</li>
+              <li>- Personalização grátis na Camisa Oficial</li>
+              <li>- Experiências sorteios e rede de parceiros</li>
+            </ul>
+          <a href="Dados pessoais.html"><button type="button" class="w-100 btn btn-lg btn-outline-danger">Iniciar</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-danger">
+          <div class="card-header py-3 text-bg-danger">
+            <h4 class="my-0 fw-normal">Sócio Torcedor Diamante</h4>
+          </div>
+          <div class="card-body text-bg-dark">
+            <h1 class="card-title pricing-card-title">R$321<small class="text-white fw-light">/mês</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>- 50% De desconto no ingresso sobre a meia-entrada</li>
+              <li>- Propriedade 1 na compra de ingressos</li>
+              <li>- Até 3 convidado R$35,00(cada)</li>
+              <li>- Assinatura mensal gratuita da FlaTV+</li>
+              <li>- Direito a uma Camisa Oficial por ano</li>
+              <li>- 10% De desconto nas Lojas Oficias do Flamengo</li>
+              <li>- Personalização grátis na Camisa Oficial</li>
+              <li>- Experiências sorteios e rede de parceiros</li>
+            </ul>
+          <a href="Dados pessoais.html"><button type="button" class="w-100 btn btn-lg btn-outline-danger">Iniciar</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="display-6 text-center mb-4 text-white">Comparar planos</h2>
+
+    <div class="table-responsive">
+      <table class="table text-center text-white">
+        <thead>
+          <tr>
+            <th style="width: 34%;"></th>
+            <th style="width: 22%;">Livre</th>
+            <th style="width: 22%;">Pró</th>
+            <th style="width: 22%;">Empreendimento</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start text-white">Público</th>
+            <td><svg class="bi text-white" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi text-white" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi text-white" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start text-white">Privado</th>
+            <td></td>
+            <td><svg class="bi text-white" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi text-white" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+        </tbody>
+
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start text-white">Permissões</th>
+            <td><svg class="bi text-white" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi text-white" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi text-white" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start text-white">Compartilhamento</th>
+            <td></td>
+            <td><svg class="bi text-white" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi text-white" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start text-white">Membros ilimitados</th>
+            <td></td>
+            <td><svg class="bi text-white" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi text-white" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start text-white">Segurança extra</th>
+            <td></td>
+            <td></td>
+            <td><svg class="bi text-white" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2" src="Images 2/logo3.jpg" title="Logo do Flamengo" alt="" width="30" height="29">
+        <small class="d-block mb-3 text-white">&copy; 2017–2022</small>
+      </div>
+      <div class="col-6 col-md text-white">
+        <h5>Características</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none text-white" href="#">Coisas legais</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none text-white" href="#">Recurso aleatório</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none text-white" href="#">Recurso de equipe</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none text-white" href="#">Coisas para desenvolvedores</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none text-white" href="#">Outro</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none text-white" href="#">Última vez</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md text-white">
+        <h5>Recursos</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none text-white" href="#">Recurso</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none text-white" href="#">Nome do recurso</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none text-white" href="#">Outro recurso</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none text-white" href="#">Recurso final</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md text-white">
+        <h5>Sobre</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none text-white" href="#">Equipe</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none text-white" href="#">Localizações</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none text-white" href="#">Privacidade</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none text-white" href="#">Termos</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>    
+  
+</body>
+</html>
