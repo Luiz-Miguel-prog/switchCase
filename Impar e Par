@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impar e Par</title>
+</head>
+<body>
+    <script>
+        var alunos = []
+    
+    for(var i = 0;i < 100;i++){
+        alunos.push(i);
+        console.log(alunos[i]);
+        if(alunos[i] % 2 ==0) {
+            console.log("PAR");}
+
+        else{
+            console.log("IMPAR");
+        }
+    }
+    </script>
+    
+</body>
+</html>
