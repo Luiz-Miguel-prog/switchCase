@@ -4,6 +4,7 @@ Exemplo de switchCase
 <h1>Exemplos de utilização do switch case com JavaScript console-switch-case-if-else-string.html</h1>
 
 Repositórios:
+
 1 a 100 = HTML + JavaScript sobre numeral de 1 a 100 usando "Console".
 100 até 500 = HTML + JavaScript sobre numeral de 100 a 500 usando "Console".
 Altura e Gênero = HTML + JavaScript sobre Altura e Gênero usando "Console".
