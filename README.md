@@ -34,3 +34,5 @@ Planos = Uma página criada por mim usando HTML + CSS + Bootstrap sobre os Plano
 Frutas = HTML + JavaScript sobre o preço das Frutas usando "Console".
 
 Tradutor = HTML + JavaScript sobre Tradutor de palavras do Inglês para o Português usando "Console".
+
+Vogais = HTML + JavaScript sobre quantas vogais tem em um nome usando "Console".
