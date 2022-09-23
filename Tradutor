@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradutor do Inglês para o Português</title>
+</head>
+<body><center>
+    <h1><ins>Escreva a palavra que você deseja Traduzir</ins></h1><br>
+    <input id="t"><br><br>
+<button onclick="Tradutor()">Traduzir</button>
+</center>
+<script>
+   var expr = document.querySelector("#t")
+
+function Tradutor(){
+        switch(expr.value){
+            case"Team":
+            console.log("Time")
+            break;
+
+            case"the":
+            console.log("o")
+            break;
+
+            case"to":
+            console.log("Para")
+            break;
+
+            case"of":
+            console.log("de")
+            break;
+
+            case"and":
+            console.log("e")
+            break;
+
+            case"a":
+            console.log("um")
+            break;
+
+            case"I":
+            console.log("Eu")
+            break;
+
+            case"you":
+            console.log("Você")
+            break;
+
+            case"he":
+            console.log("Ele")
+            break;
+
+            case"we":
+            console.log("Nós")
+            break;
+
+            case"What":
+            console.log("Que")
+            break;
+
+            case"Can":
+            console.log("Pode")
+            break;
+
+            case"Like":
+            console.log("Gosto")
+            break;
+
+            case"or":
+            console.log("ou")
+            break;
+
+            case"in":
+            console.log("em")
+            break;
+
+            case"was":
+            console.log("Estava")
+            break;
+
+            case"as":
+            console.log("Como")
+            break;
+
+            case"this":
+            console.log("Este")
+            break;
+
+            case"by":
+            console.log("Por")
+            break;
+
+            case"Fight":
+            console.log("Lutar")
+            break;
+
+            case"Fly":
+            console.log("Voar")
+            break;
+
+            case"Blue":
+            console.log("Azul")
+            break;
+
+            case"Red":
+            console.log("Vermelho")
+            break;
+
+            case"Yellow":
+            console.log("Amerelo")
+            break;
+
+            case"Preto":
+            console.log("Black")
+            break;
+
+            case"Gray":
+            console.log("Cinza")
+            break;
+
+            default:
+            console.log("Não consegui achar a tradução para essa palavra")}
+            console.log("Tem outra palavra que deseja traduzir?")
+        }
+    </script>
+    
+</body>
+</html>
