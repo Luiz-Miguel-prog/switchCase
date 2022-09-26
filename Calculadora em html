@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+<title>
+    Calculadora
+</title>
+<STYle>
+center{
+  color: red;
+}
+body{
+  background: black url(Image/mosaico.jpg) repeat;
+}
+</style>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <center>
+    <h1><ins>Calculadora</ins></h1>
+       <h2><ins>Digite Um Número N1</ins></h2>
+       <input id="n1" type="number" placeholder="n1">
+       <h2><ins>Digite Um Número N2</ins></h2>
+       <input id="n2" type="number" placeholder="n2"><br><br>
+       
+       <button onclick="somar()">+</button>
+       <button onclick="subtrair()">-</button>
+       <button onclick="multiplicacao()">*</button>
+       <button onclick="divisao()">/</button><br><br>
+
+       <button id="bot">O Resultado é: </button><br>
+    </center>
+       <script>
+        var n1 = document.querySelector('#n1')
+        var n2 = document.querySelector('#n2')
+        var resultado = document.querySelector('#bot')
+  function somar(){
+      resultado.innerHTML ="O Resultado é "
+       + (parseFloat(n1.value)+
+       parseFloat(n2.value));
+    }       
+    function subtrair(){
+      resultado.innerHTML ="O Resultado é "
+       + (parseFloat(n1.value)-
+       parseFloat(n2.value))
+    } 
+    
+    function multiplicacao(){
+      resultado.innerHTML ="O Resultado é "
+       + (parseFloat(n1.value)*
+       parseFloat(n2.value));
+    }
+
+    function divisao(){
+      resultado.innerHTML ="O Resultado é "
+       + (parseFloat(n1.value)/
+       parseFloat(n2.value));
+    }
+
+</script>
+</body>
+</html>
