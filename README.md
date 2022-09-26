@@ -13,7 +13,7 @@ Altura e Gênero = HTML + JavaScript sobre Altura e Gênero usando "Console".
 
 Boletim = HTML + JavaScript sobre 5 Médias.
 
-Calculadora = HTML + JavaScript sobre Calculadora.
+Calculadora em html = HTML + JavaScript sobre Calculadora.
 
 Média = HTML + JavaScript sobre 4 Médias.
 
